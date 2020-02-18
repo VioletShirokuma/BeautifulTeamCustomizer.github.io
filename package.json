@@ -1,0 +1,30 @@
+{
+  "name": "beautifulteamcustomizer.github.io",
+  "version": "1.0.0",
+  "description": "Team Profile Generator",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VioletShirokuma/BeautifulTeamCustomizer.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VioletShirokuma/BeautifulTeamCustomizer.github.io/issues"
+  },
+  "homepage": "https://github.com/VioletShirokuma/BeautifulTeamCustomizer.github.io#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.0.4",
+    "jest": "^25.1.0"
+  },
+  "devDependencies": {}
+}
