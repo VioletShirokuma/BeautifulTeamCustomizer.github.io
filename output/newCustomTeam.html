@@ -1,8 +1,4 @@
-let build = require("./buildteam");
 
-function generateHTML(team_cards) {
-
-  return `
    <!DOCTYPE html>
    <html lang="en">
    <head>
@@ -71,15 +67,38 @@ function generateHTML(team_cards) {
    }
     </style>
     <div class="header"><h1>My Team</h1></div>
-     ${team_cards}
+     <div class="card" style="width: 18rem;">
+        <div class="card-header p-4">
+        <h2>Sherry</h2>
+        <h4><i class="fas fa-mug-hot"></i>  Manager<h4>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Id: 4487454</li>
+          <li class="list-group-item">Email: <a href=mailto:Sherry@sherry.com>Sherry@sherry.com</a></li>
+          <li class="list-group-item">office Number: 4</li>
+        </ul>
+      </div><div class="card" style="width: 18rem;">
+      <div class="card-header p-4">
+      <h2>Mark</h2>
+      <h4><i class="fas fa-glasses"></i>   Engineer<h4>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Id: 4354543</li>
+        <li class="list-group-item">Email: <a href=mailto:Mark@Mark.com>Mark@Mark.com</a></li>
+       <li class="list-group-item">Github:  <a href="https://github.com/Marko"> Marko </a>
+      </ul>
+    </div><div class="card" style="width: 18rem;">
+        <div class="card-header p-4">
+        <h2>Nori</h2>
+        <h4><i class="fas fa-user-graduate"></i>   Intern<h4>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Id: 9540954</li>
+          <li class="list-group-item">Email: <a href=mailto:"Nori@nori.com>Nori@nori.com</a></li>
+          <li class="list-group-item">School: UW Seattle</li>
+        </ul>
+      </div>
    
      <div class="footer"></div>  
 </body>
-</html>`
-
-}
-
-
-module.exports = {
-  generateHTML: generateHTML
-}
+</html>
