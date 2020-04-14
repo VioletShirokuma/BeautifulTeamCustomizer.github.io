@@ -3,7 +3,7 @@ Team Profile Generator
 
 A command-line application that dynamically generates profiles to create team profiles via Node.
 
-DEPLOYED APPLICATION: 
+DEPLOYED APPLICATION: https://violetshirokuma.github.io/BeautifulTeamCustomizer.github.io/
 
 
 <h2>Screenshot:</h2>
